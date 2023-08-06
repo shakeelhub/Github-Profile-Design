@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Poppins:wght@500&family=Roboto:wght@300;400;500;700&family=Ubuntu:ital,wght@1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;;
+}
+
+:root{
+    --primary:#2f3d46;
+    --secondary:#CAD2C5;
+    --light:#ffffff;
+    --dark:#000000;
+    --brown:#3f3f3f;
+}
+
+.nav-color{
+    background-color: var(--primary);
+    color:var(--light);
+}
+
+
+.github{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2em;
+}
+
+.profile-page-container{
+    width:100%;
+    height: calc(100vh - 64px);
+    background-color: var(--secondary);
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    width: 100%;
+    height: calc(100%);
+    background-color: var(--brown);
+    border-radius: 1rem;
+}
+
+.content-area{
+    height: 100%;
+}
+
+.search{
+width: 100%;
+height: 50px;
+background: var(--brown);
+border-radius: 1rem;
+
+
+> input{
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding-inline: 10px;
+  color:var(--light)
+}
+}
+
+.rectangle{
+    height: 200px;
+    border-radius: 1rem;
+    background: var(--brown);
+
+}
